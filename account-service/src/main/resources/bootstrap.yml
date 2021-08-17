@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: account-service
+
+  cloud:
+    config:
+      server:
+        bootstrap: true
+      profile: native
+      uri: http://localhost:8888
