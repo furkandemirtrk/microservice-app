@@ -4,7 +4,6 @@ spring:
 
   cloud:
     config:
-      server:
-        bootstrap: true
+      name: account-service
       profile: native
       uri: http://localhost:8888
